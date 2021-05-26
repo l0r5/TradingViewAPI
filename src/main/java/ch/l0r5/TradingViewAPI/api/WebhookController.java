@@ -16,9 +16,7 @@ public class WebhookController {
 
     @PostMapping(path="/trigger")
     public ResponseEntity<HttpStatus> triggerSignal(@RequestBody Map<String, Object> signal) {
-
         log.info("Received object: {}", signal);
-
         return ResponseEntity.ok(HttpStatus.OK);
     }
 }
