@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 public class WebhookController {
 
-    @PostMapping(path = "/trigger", consumes = MediaType.TEXT_PLAIN_VALUE)
+    @PostMapping(path = "/trigger", consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<HttpStatus> triggerSignal(@RequestBody Map<String, Object> signal) {
         log.info("Received object: {}", signal);
 
