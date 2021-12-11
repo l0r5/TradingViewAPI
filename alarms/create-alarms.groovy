@@ -5,7 +5,7 @@ def pairs = [
         ["pair": "BTC/USDT", "timeFrame": "1h", "emasarSettings": "EMASAR 50/200/48 Bankroll:10k"],
         ["pair": "DASH/USDT", "timeFrame": "1h", "emasarSettings": "EMASAR 50/200/48 Bankroll:10k"],
         ["pair": "DOT/USDT", "timeFrame": "18m", "emasarSettings": "EMASAR 50/200/48 Bankroll:10k"],
-        ["pair": "EOS/USDT", "timeFrame": "1h", "emasarSettings": "EMASAR 50/200/48 Bankroll:10k"],
+        ["pair": "EOS/USDT", "timeFrame": "4h", "emasarSettings": "EMASAR 50/200/48 Bankroll:10k"],
         ["pair": "ETH/USDT", "timeFrame": "1h", "emasarSettings": "EMASAR 50/200/48 Bankroll:10k"],
         ["pair": "LRC/USDT", "timeFrame": "1h", "emasarSettings": "EMASAR 50/200/48 Bankroll:10k"],
         ["pair": "LTC/USDT", "timeFrame": "30m", "emasarSettings": "EMASAR 50/200/48 Bankroll:10k"],
